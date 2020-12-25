@@ -1,0 +1,14 @@
+Запуск
+
+RabbitMQ:
+	sudo service rabbitmq-server start  (sudo service rabbitmq-server stop)
+	sudo rabbitmq-plugins enable rabbitmq_management   (port: 15672)
+	
+Celery:
+	celery -A myshop worker -l info
+	
+pyton manage.py runserver
+
+
+Список доступных карт:
+	https://developers.braintreepayments.com/guides/credit-cards/testing-go-live/python
